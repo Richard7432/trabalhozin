@@ -1,0 +1,101 @@
+programa
+{
+    funcao inicio()
+    {
+        cadeia p1 = " "
+        cadeia p2 = " "
+        cadeia p3 = " "
+        cadeia p4 = " "
+        cadeia p5 = " "
+        cadeia p6 = " "
+        cadeia p7 = " "
+        cadeia p8 = " "
+        cadeia p9 = " "
+
+        inteiro posicao
+        inteiro rodada = 1
+        cadeia jogador
+
+        enquanto (rodada <= 9)
+        {
+            limpa()
+
+            escreva("      JOGO DA VELHA\n\n")
+
+            escreva(" ", p1, " | ", p2, " | ", p3, "\n")
+            escreva("---+---+---\n")
+            escreva(" ", p4, " | ", p5, " | ", p6, "\n")
+            escreva("---+---+---\n")
+            escreva(" ", p7, " | ", p8, " | ", p9, "\n\n")
+
+            se (rodada % 2 == 1)
+            {
+                jogador = "X"
+            }
+            senao
+            {
+                jogador = "O"
+            }
+
+            escreva("Jogador ", jogador, ", escolha uma posição de 1 a 9: ")
+            leia(posicao)
+
+            se (posicao == 1)
+            {
+                p1 = jogador
+            }
+            senao se (posicao == 2)
+            {
+                p2 = jogador
+            }
+            senao se (posicao == 3)
+            {
+                p3 = jogador
+            }
+            senao se (posicao == 4)
+            {
+                p4 = jogador
+            }
+            senao se (posicao == 5)
+            {
+                p5 = jogador
+            }
+            senao se (posicao == 6)
+            {
+                p6 = jogador
+            }
+            senao se (posicao == 7)
+            {
+                p7 = jogador
+            }
+            senao se (posicao == 8)
+            {
+                p8 = jogador
+            }
+            senao se (posicao == 9)
+            {
+                p9 = jogador
+            }
+            senao
+            {
+                escreva("Posição inválida!")
+            }
+
+            rodada++
+        }
+
+        limpa()
+
+        escreva("      JOGO DA VELHA\n\n")
+
+        escreva(" ", p1, " | ", p2, " | ", p3, "\n")
+        escreva("---+---+---\n")
+        escreva(" ", p4, " | ", p5, " | ", p6, "\n")
+        escreva("---+---+---\n")
+        escreva(" ", p7, " | ", p8, " | ", p9, "\n")
+
+        escreva("\nFim de jogo!")
+    }
+}
+  }
+}
