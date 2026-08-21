@@ -1,0 +1,13 @@
+temp_max = int(input("Digite a temperatura máxima: "))
+temp_min = int(input("Digite a temperatura mínima: "))
+temp_media = (temp_max + temp_min) / 2
+print(f"A temperatura média é: {temp_media}")
+
+if temp_media > 30:
+    print("Está muito quente!")
+elif temp_media > 20 and temp_media <= 30:
+    print("Está agradável!")
+else:
+    print("Está frio!")
+    
+    print (f" a temperatura está entre {temp_min} e {temp_max} graus, com uma média de {temp_media} graus.")
