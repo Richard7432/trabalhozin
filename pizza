@@ -1,31 +1,30 @@
-nome = str(input("seu nome?:"))
-produto = str(input("oque voce quer?:"))
-quantidade = int(input("quantas?:"))
-preço_uni = float(input("preço?:"))
-distancia = float(input("qual a distancia?:"))
-resposta = input("é cliente fidelidade? digite:s ou n")
+nome = input("Nome do cliente: ")
+produto = input("Produto: ")
+quantidade = int(input("Quantidade: "))
+preco = float(input("Preço unitário: "))
+distancia = float(input("Distância: "))
+fidelidade = input("Cliente fidelidade? (s/n): ")
 
-if (resposta == "s"):
-    fidelidadebool = True
-else: 
-    (False)
+subtotal = quantidade * preco
 
-if (fidelidadebool = True):
-    desconto = sub_total * 0.05
-    valor_final = sub_total - desconto
-    
-if (distancia > 0 ):
-    taxa_de_entrega = distancia * 2.5
-    
-    
-    
-valor_total = preço_uni
+desconto = 0
 
-sub_total = (produto * quantidade)
-if("sub_total >=100"):
-    desconto = valor_total * 0.10
-    valor_total = valor_total - desconto
-    print ("desconto:", desconto)
+if subtotal >= 100:
+    desconto = subtotal * 0.10
+
+if fidelidade == "s":
+    desconto = desconto + (subtotal - desconto) * 0.05
+
+if distancia > 0:
+    entrega = distancia * 2.50
 else:
-    print("desconto:", "0")
-  
+    entrega = 0
+
+valor_final = subtotal - desconto + entrega
+
+print("Cliente:", nome)
+print("Produto:", produto)
+print("Subtotal:", subtotal)
+print("Desconto:", desconto)
+print("Taxa de entrega:", entrega)
+print("Valor final:", valor_final)
