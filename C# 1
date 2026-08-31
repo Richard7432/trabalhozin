@@ -1,0 +1,11 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string nome = "maria";
+		Console.WriteLine(nome);
+		Console.WriteLine("nome: " + nome);
+	}
+}
