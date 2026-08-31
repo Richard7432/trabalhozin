@@ -1,0 +1,29 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string nome, cidade;
+        int idade;
+        double altura;
+
+        Console.Write("Digite seu nome: ");
+        nome = Console.ReadLine();
+
+        Console.Write("Digite sua idade: ");
+        idade = int.Parse(Console.ReadLine());
+
+        Console.Write("Digite sua cidade: ");
+        cidade = Console.ReadLine();
+
+        Console.Write("Digite sua altura (em metros): ");
+        altura = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("\n===== DADOS CADASTRADOS =====");
+        Console.WriteLine($"Nome   : {nome}");
+        Console.WriteLine($"Idade  : {idade} anos");
+        Console.WriteLine($"Cidade : {cidade}");
+        Console.WriteLine($"Altura : {altura:F2} m");
+    }
+}
