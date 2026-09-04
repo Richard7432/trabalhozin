@@ -1,0 +1,27 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string nome = "Richard";
+        int idade = 18;
+        string curso = "Lógica de Programação";
+
+        Console.Write("Digite a primeira nota: ");
+        double nota1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Digite a segunda nota: ");
+        double nota2 = Convert.ToDouble(Console.ReadLine());
+
+        double media = (nota1 + nota2) / 2;
+
+        Console.WriteLine("\n=== CADASTRO ALUNO ===");
+        Console.WriteLine("Nome: " + nome);
+        Console.WriteLine("Idade: " + idade);
+        Console.WriteLine("Curso: " + curso);
+        Console.WriteLine("Nota 1: " + nota1);
+        Console.WriteLine("Nota 2: " + nota2);
+        Console.WriteLine("Média: " + media.ToString("F2"));
+    }
+}
