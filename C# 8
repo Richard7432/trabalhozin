@@ -9,9 +9,6 @@ class Program
 
         bool aprovado = nota >= 6;
 
-        if (aprovado)
-            Console.WriteLine("Aluno aprovado!");
-        else
-            Console.WriteLine("Aluno reprovado!");
+        Console.WriteLine(aprovado ? "Aprovado" : "Reprovado");
     }
 }
