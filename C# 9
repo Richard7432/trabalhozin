@@ -4,9 +4,12 @@ class Program
 {
     static void Main()
     {
-        string nome = "Richard";
+		Console.WriteLine("\n=== DADOS DO ALUNO ===");
+        Console.Write("digite seu nome: ");
+		string nome = Console.ReadLine();
         int idade = 18;
-        string curso = "Lógica de Programação";
+		Console.Write("digite seu curso: ");
+		string curso = Console.ReadLine();
 
         Console.Write("Digite a primeira nota: ");
         double nota1 = Convert.ToDouble(Console.ReadLine());
