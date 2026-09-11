@@ -5,18 +5,24 @@
 <title> Primeira página </title>
 </head>
 <body>
+  <br>
+  <h1>Cursos que eu sei</h1>
+  <p>oque eu sei de programaço</p>
+  <strong>importante</strong>
+  <em>em destaque</em>
+  <br>
 <table border= "2">
 <tr>
 <th> Nome </th>
 <th> IDADE </th>
 </tr>
 <tr>
-<td> Ana </td>
+<td> Richard </td>
 <td> 20 </td>
 </tr>
 </table>
 <br>
-Lista de Cursos
+<strong>Lista de Cursos</strong>
 <p>
 <ul>
 <li> HTML</li>
@@ -24,6 +30,9 @@ Lista de Cursos
 <li> Java Script </li>
 </ul>
 </p>
+  
+  <br>
+  <img src="ishowspeed-raging-meme" alt = "partes do ishow" width= "200" height="200">
 </body>
 </html>
 tem menu de contexto
