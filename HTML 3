@@ -30,9 +30,22 @@
 <li> Java Script </li>
 </ul>
 </p>
-  
   <br>
-  <img src="ishowspeed-raging-meme" alt = "partes do ishow" width= "200" height="200">
+  <img src="images.jpg" alt = "partes do ishow" width= "200" height="200">
 </body>
 </html>
-tem menu de contexto
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exemplo de link</title>
+</head>
+<body>
+<h1>Meus links favoritos</h1>
+https://www.senac.br
+<br> Senac
+<p>
+<a href="https://www.senac.br/">Portal Senac</a>
+</p>
+</body>
+</html>
