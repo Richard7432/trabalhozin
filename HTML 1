@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <meta charset="utf-8">
+  <title> Primeira pagina</title>
+  </head>
+  <body>saudações. seja bem vindo a minha primeira pagina
+  </body>
+  <thead>
+    a
+    b
+    c
+    b
+  </thead>
+ <tfoot>
+Resultado A  
+Resultado b
+Resultado c
+Resultado d
+  </tfoot>
+  1
+  2
+  3
+  4
+    </tfoot>
+  </body>
+</html>
