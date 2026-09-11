@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Primeira página</title>
+</head>
+<body>
+<table border="2">
+<tr>
+<th>Nome</th>
+<th>IDADE</th>
+</tr>
+<tr>
+<td>Ana</td>
+<td>20</td>
+</tr>
+</table>
+<p>
+ <ul>
+   <li> HTML</li>
+   <li>  CSS</li>
+   <li>  Java script </li>
+  </ul>
+  </p>
+</body>
+</html>
