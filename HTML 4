@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mural de pets</title>
+</head>
+<body>
+
+    <h2>Animal Desaparecido</h2>
+   	<img src="gato.jpg" alt = "foto do gato" width= "200" height="200">
+    <p>Último local visto: Centro</p>
+		<br>
+  	Nome:jonas
+  	<br>
+  	cor:laranja
+  	<br>
+  	genero:femea
+  	<br>
+  	
+    <h3>Contato:</h3>
+    <a href="https://app.alertpet.com.br/">Nosso Site</a>
